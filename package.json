@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/ferdirn/simple-node-blog#readme",
   "dependencies": {
+    "ejs": "^2.6.1",
     "express": "^4.16.3"
   },
   "devDependencies": {
