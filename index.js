@@ -1,10 +1,12 @@
+'use strict'
+
 // Setup
 const express = require('express');
 const ejs = require('ejs');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
-const app = express();
+let app = express();
 
 // Ejs view engine
 app.engine('html', ejs.renderFile);
