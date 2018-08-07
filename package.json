@@ -21,7 +21,8 @@
   "homepage": "https://github.com/ferdirn/simple-node-blog#readme",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mongoose": "^5.2.7"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
