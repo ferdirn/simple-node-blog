@@ -11,7 +11,7 @@ app.engine('html', ejs.renderFile);
 app.set('view engine', 'html');
 
 // Mongoose
-mongoose.connect('mongodb://localhost:27017/simple-node-blog');
+mongoose.connect('mongodb://localhost:27017/simple-node-blog', { useNewUrlParser: true });
 
 // Mongoose Schema
 const postSchema = new mongoose.Schema({
